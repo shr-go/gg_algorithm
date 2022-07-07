@@ -1,3 +1,10 @@
-# 项目排除路径
-/cmake-build-debug/
-/cmake-build-debug-vs/
+# Editors.
+*.sw*
+.vscode
+.DS_Store
+.idea
+
+# Build directory.
+build/
+out/
+cmake-build-*/
